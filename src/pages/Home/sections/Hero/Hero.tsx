@@ -5,6 +5,7 @@ import Avatar from "../../../../assets/images/avatar.png"
 import StyledButton from "../../../../components/StyledButton/StyledButton";
 import theme from "../../../../theme";
 import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground";
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 const Hero = () => {
 
   const StyledHero = styled("div")(({ theme }) => ({
@@ -43,7 +44,7 @@ const Hero = () => {
                   <StyledButton>
                     <DownloadingIcon />
                     <Typography>
-                      Download my CV
+                      Baixar o currículo 
                     </Typography>
                   </StyledButton>
                 </Grid>
@@ -51,7 +52,7 @@ const Hero = () => {
                   <StyledButton>
                     <MailIcon />
                     <Typography>
-                      Contact me
+                      Entre em contato <LocalPhoneIcon />
                     </Typography>
                   </StyledButton>
                 </Grid>
